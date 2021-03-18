@@ -1,0 +1,46 @@
+body { 
+    font-family: Arial;
+    font-size: 16px;
+}
+a {
+    color: white;
+}
+.home:hover {
+    color: lightblue;
+    font-weight: bolder;
+}
+.currentpage {
+    background-color: rgb(89, 88, 112);
+}
+.winc:active {
+    color: red;
+    font-style: italic;
+}
+.github:visited {
+    color: yellow;
+}
+li:hover {
+    background-color: lightblue;
+}
+textarea {
+    margin-left: 60px;
+    width: 250px;
+}
+textarea:focus {
+    color: green;
+    font-size: 20px;
+}
+nav {
+    background-color: darkblue;
+}
+nav li{
+    display: inline;
+    padding: 20px 20px;
+    line-height: 50px;
+}
+a:first-of-type {
+    padding-left: 0px;
+}
+input:focus {
+    border: 5px solid cyan;
+}
